@@ -1,0 +1,21 @@
+.navigation-bar {
+  background: linear-gradient(45deg, #163a48, #021013);
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.navigation-bar-links {
+  color: white;
+  font-family: "Quicksand", sans-serif;
+}
+
+.navigation-bar-links-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navigation-bar-logo {
+  display: flex;
+  justify-content: center;
+}
