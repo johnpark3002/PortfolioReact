@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import "./App.css";
+import "./styles/App.css";
 import NavBar from "./components/navigation-bar";
 import Home from "./components/home";
 import About from "./components/about";
@@ -12,7 +12,7 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className="container">
       <section id="navigation">
         <NavBar />
       </section>
