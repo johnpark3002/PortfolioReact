@@ -20,7 +20,6 @@ function App() {
         <Home />
       </section>
       <section id="about">
-        About Content
         <About />
       </section>
       <section id="projects">

@@ -1,0 +1,24 @@
+@import url("./variables.css");
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    color: var(--text-color);
+    max-width: 1000px; /* Check this code out after */
+    height: 100vh;
+}
+
+.about-title {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.about-container p {
+    font-family: var(--font-family-secondary);
+    text-align: justify;
+}
