@@ -1,21 +1,40 @@
+@import url("./variables.css");
+
 .navigation-bar {
-  background: linear-gradient(45deg, #163a48, #021013);
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: auto 3fr;
+  grid-template-rows: 60px;
 }
 
-.navigation-bar-links {
-  color: white;
-  font-family: "Quicksand", sans-serif;
+.navigation-bar-links, .navigation-bar-title {
+  color: var(--text-color);
+  font-family: var(--font-family);
+  transition: transform 0.3s ease; /* Smooth animation effect */
+}
+
+.navigation-bar-links:hover {
+  color: #3498db; /* Change color on hover */
+  transform: scale(1.1); /* Slightly enlarge the text */
 }
 
 .navigation-bar-links-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-left: auto;
+  gap: 30px;
+  padding: 20px;
 }
 
 .navigation-bar-logo {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-self: stretch;
+}
+
+.navigation-bar-logo img {
+  max-width: 100%; /* Ensures the logo does not exceed the column width */
+  max-height: 100%; /* Ensures the logo does not exceed the column height */
+  object-fit: contain; /* Maintains aspect ratio of the logo */
+  display: block; /* Prevents extra space below the image */
 }

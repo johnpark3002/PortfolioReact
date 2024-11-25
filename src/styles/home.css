@@ -1,0 +1,36 @@
+@import url("./variables.css");
+
+.homepage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto 50px;
+    gap: 5px;
+    padding-top: 25px;
+    height: 80vh;
+}
+
+.homepage-profile-picture img {
+    border-radius: 50%;
+    object-fit: cover;
+    transform: scale(1.2);
+}
+
+.homepage-summary span {
+    font-weight: 400;
+    font-size: 5rem;
+    color: var(--text-color);
+    font-family: var(--font-family);
+}
+
+.homepage-summary p {
+    color: var(--text-color);
+    font-family: var(--font-family);
+    max-width: 90%;
+    font-size: 1.3rem;
+}
+
+.homepage-summary {
+    max-width: 55%;
+}

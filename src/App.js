@@ -17,7 +17,6 @@ function App() {
         <NavBar />
       </section>
       <section id="home">
-        Home Content
         <Home />
       </section>
       <section id="about">
