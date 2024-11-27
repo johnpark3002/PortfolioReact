@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.52d3e77c.css",
+    "main.js": "/react-gh-pages/static/js/main.d47db8c9.js",
+    "static/js/453.aac68abc.chunk.js": "/react-gh-pages/static/js/453.aac68abc.chunk.js",
+    "static/media/library-management-website.png": "/react-gh-pages/static/media/library-management-website.bcdf0b4e1822fc7ca41c.png",
+    "static/media/pourdecisions-website.png": "/react-gh-pages/static/media/pourdecisions-website.c863178ca8b5087046b1.png",
+    "static/media/iphone-application-development.jpg": "/react-gh-pages/static/media/iphone-application-development.8860c8982a80bc1682f3.jpg",
+    "static/media/budget-management-application.jpg": "/react-gh-pages/static/media/budget-management-application.a68a0fcb57a1bad61e24.jpg",
+    "static/media/logo-removebg.png": "/react-gh-pages/static/media/logo-removebg.47f7e0f5b59cfc4b6900.png",
+    "static/media/autonomous-robot-project.png": "/react-gh-pages/static/media/autonomous-robot-project.ea3bff20648e491a0daf.png",
+    "static/media/profile-picture.jpeg": "/react-gh-pages/static/media/profile-picture.fcb551e0e62aafde6d56.jpeg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.52d3e77c.css.map": "/react-gh-pages/static/css/main.52d3e77c.css.map",
+    "main.d47db8c9.js.map": "/react-gh-pages/static/js/main.d47db8c9.js.map",
+    "453.aac68abc.chunk.js.map": "/react-gh-pages/static/js/453.aac68abc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52d3e77c.css",
+    "static/js/main.d47db8c9.js"
+  ]
+}
