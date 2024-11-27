@@ -18,15 +18,6 @@ export default function NavBar() {
         <a className="navigation-bar-links" href="#projects">
           Projects
         </a>
-        <a className="navigation-bar-links" href="#skills">
-          Skills
-        </a>
-        <a className="navigation-bar-links" href="#experience">
-          Experience
-        </a>
-        <a className="navigation-bar-links" href="#contact">
-          Contact
-        </a>
       </div>
     </nav>
   );

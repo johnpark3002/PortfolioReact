@@ -1,20 +1,31 @@
-export default function ProjectCard() {
+import "../styles/project-card.css";
+
+export default function ProjectCard(props) {
+  const projects = props.projects;
+
   return (
-    <>
-      <div className="card">
-        <div className="card-front">
-          <h1>Project Title 1</h1>
-          <h3>Description</h3>
+    <div className="card-container">
+      {projects.map((project) => (
+        <div key={project.id} className="card">
+          <div className="card-front">
+            <img src={project.image} alt={project.alt}></img>
+          </div>
+          <div className="card-back">
+            <div className="card-back-name">
+              <span>Name: </span>
+              {project.name}
+            </div>
+            <div className="card-back-description">
+              <span>Description: </span>
+              {project.description}
+            </div>
+            <div className="card-back-technologies">
+              <span>Technologies Used: </span>
+              {project.technologies}
+            </div>
+          </div>
         </div>
-        <div className="card-back">
-          <h2>Project Description</h2>
-          <h3>Project Purpose</h3>
-          <h3>Role and Contributions</h3>
-          <h3>Technical challenges</h3>
-          <h3>Key Achievements</h3>
-          <h3>Technologies Used</h3>
-        </div>
-      </div>
-    </>
+      ))}
+    </div>
   );
 }

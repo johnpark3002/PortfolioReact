@@ -1,2 +1,14 @@
 @import url("./variables.css");
 
+.projects {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.projects > span {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 4rem;
+    color: white;
+}

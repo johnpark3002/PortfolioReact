@@ -3,16 +3,26 @@ import "../styles/home.css";
 
 export default function Home() {
   return (
-    <div className="homepage"> {/* Container div */}
+    <div className="homepage">
+      {" "}
+      {/* Container div */}
       <div className="homepage-summary">
         <span>
-          Hi, my name is <span style={{fontWeight: 900, color: "#3498db"}}>John</span>.
+          Hi, my name is{" "}
+          <span style={{ fontWeight: 900, color: "#3498db" }}>John</span>.
         </span>
         <p>
           An aspiring Software Engineer passionate about building efficient,
           user-friendly solutions. Experienced in full-stack development with a
           focus on accessible technologies and real-world problem-solving.
         </p>
+        <a
+          href="../assets/john-park-software-engineering-resume.pdf"
+          download="john-park-software-engineering-resume.pdf"
+          className="homepage-resume-button"
+        >
+          My Resume
+        </a>
       </div>
       <div className="homepage-profile-picture">
         <img

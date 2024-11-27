@@ -34,3 +34,21 @@
 .homepage-summary {
     max-width: 55%;
 }
+
+.homepage-resume-button {
+    background-color: rgb(52, 152, 219);
+    font-family: var(--font-family);
+    font-size: 1.3rem;
+    border-radius: 0.75rem;
+    font-weight: 600;
+    padding: 0.75rem;
+    border: none;
+    color: #E6E6E6;
+    text-decoration: none;
+    margin-top: 0.3rem;
+    display: inline-block;
+}
+
+.homepage-resume-button:hover {
+    transform: scale(1.1);
+}
