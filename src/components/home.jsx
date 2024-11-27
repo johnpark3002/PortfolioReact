@@ -1,4 +1,5 @@
 import profile from "../images/profile-picture.jpeg";
+import Resume from "../assets/john-park-software-engineering-resume.pdf";
 import "../styles/home.css";
 
 export default function Home() {
@@ -17,7 +18,7 @@ export default function Home() {
           focus on accessible technologies and real-world problem-solving.
         </p>
         <a
-          href="../assets/john-park-software-engineering-resume.pdf"
+          href={Resume}
           download="john-park-software-engineering-resume.pdf"
           className="homepage-resume-button"
         >
