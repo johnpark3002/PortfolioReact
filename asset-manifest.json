@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PortfolioReact/static/css/main.b09ba8b8.css",
+    "main.css": "/PortfolioReact/static/css/main.52d3e77c.css",
     "main.js": "/PortfolioReact/static/js/main.62bcb359.js",
     "static/js/453.aac68abc.chunk.js": "/PortfolioReact/static/js/453.aac68abc.chunk.js",
     "static/media/library-management-website.png": "/PortfolioReact/static/media/library-management-website.bcdf0b4e1822fc7ca41c.png",
@@ -11,12 +11,12 @@
     "static/media/autonomous-robot-project.png": "/PortfolioReact/static/media/autonomous-robot-project.ea3bff20648e491a0daf.png",
     "static/media/profile-picture.jpeg": "/PortfolioReact/static/media/profile-picture.fcb551e0e62aafde6d56.jpeg",
     "index.html": "/PortfolioReact/index.html",
-    "main.b09ba8b8.css.map": "/PortfolioReact/static/css/main.b09ba8b8.css.map",
+    "main.52d3e77c.css.map": "/PortfolioReact/static/css/main.52d3e77c.css.map",
     "main.62bcb359.js.map": "/PortfolioReact/static/js/main.62bcb359.js.map",
     "453.aac68abc.chunk.js.map": "/PortfolioReact/static/js/453.aac68abc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b09ba8b8.css",
+    "static/css/main.52d3e77c.css",
     "static/js/main.62bcb359.js"
   ]
 }
