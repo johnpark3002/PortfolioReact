@@ -8,12 +8,15 @@ export default function ProjectCard(props) {
       {projects.map((project) => (
         <div key={project.id} className="card">
           <div className="card-front">
-            <img src={project.image} alt={project.alt}></img>
+            <div className="card-front-image">
+              <img src={project.image} alt={project.alt}></img>
+            </div>
+            <div className="card-front-title">
+              <span>{project.name}</span>
+            </div>
           </div>
           <div className="card-back">
             <div className="card-back-name">
-              <span>Name: </span>
-              {project.name}
             </div>
             <div className="card-back-description">
               <span>Description: </span>
