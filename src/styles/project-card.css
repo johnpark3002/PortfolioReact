@@ -40,7 +40,7 @@
     width: 100%; /* Occupy the full width of the card */
     height: 15%; /* Occupy 40% of the card's height */
     z-index: 2; /* Higher z-index to appear on top */
-    background-color: rgb(52, 152, 219, 1); /* Optional: Semi-transparent background */
+    background-color: rgb(52, 152, 219, 0.8); /* Optional: Semi-transparent background */
     /* background: var(--background-color); */
     color: white; /* Contrast text color for visibility */
     padding: 10px; /* Add padding around the title */
