@@ -38,7 +38,7 @@
     left: 0; /* Stretch to the left edge */
     /* transform: translateX(-50%); */
     width: 100%; /* Occupy the full width of the card */
-    height: 15%; /* Occupy 40% of the card's height */
+    height: 15%; /* Occupy 15% of the card's height */
     z-index: 2; /* Higher z-index to appear on top */
     background-color: rgb(52, 152, 219, 0.8); /* Optional: Semi-transparent background */
     /* background: var(--background-color); */
@@ -54,7 +54,7 @@
     box-sizing: border-box; /* Include padding in height calculation */
 }
 
-.card-back-name, .card-back-description, .card-back-technologies {
+.card-back-description, .card-back-technologies {
     margin-bottom: 10px;
 }
 
@@ -88,6 +88,14 @@
 
 .card-back span {
     font-weight: 900;
+}
+
+.card-back-github-logo {
+    position: absolute;
+    bottom: 0;
+    height: 15%;
+    margin: 10px;
+    width: 15%;
 }
 
 .card-container {
