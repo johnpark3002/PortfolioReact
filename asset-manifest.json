@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortfolioReact/static/css/main.9da19e2c.css",
-    "main.js": "/PortfolioReact/static/js/main.42d199b5.js",
+    "main.css": "/PortfolioReact/static/css/main.a33f6119.css",
+    "main.js": "/PortfolioReact/static/js/main.09cf9c31.js",
     "static/js/453.aac68abc.chunk.js": "/PortfolioReact/static/js/453.aac68abc.chunk.js",
     "static/media/library-management-website.png": "/PortfolioReact/static/media/library-management-website.bcdf0b4e1822fc7ca41c.png",
     "static/media/pourdecisions-website.png": "/PortfolioReact/static/media/pourdecisions-website.c863178ca8b5087046b1.png",
@@ -12,12 +12,13 @@
     "static/media/autonomous-robot-project.png": "/PortfolioReact/static/media/autonomous-robot-project.ea3bff20648e491a0daf.png",
     "static/media/profile-picture.jpeg": "/PortfolioReact/static/media/profile-picture.fcb551e0e62aafde6d56.jpeg",
     "index.html": "/PortfolioReact/index.html",
-    "main.9da19e2c.css.map": "/PortfolioReact/static/css/main.9da19e2c.css.map",
-    "main.42d199b5.js.map": "/PortfolioReact/static/js/main.42d199b5.js.map",
+    "static/media/github-logo.svg": "/PortfolioReact/static/media/github-logo.b1de3551c3e3c826bf5af69a30f1f516.svg",
+    "main.a33f6119.css.map": "/PortfolioReact/static/css/main.a33f6119.css.map",
+    "main.09cf9c31.js.map": "/PortfolioReact/static/js/main.09cf9c31.js.map",
     "453.aac68abc.chunk.js.map": "/PortfolioReact/static/js/453.aac68abc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9da19e2c.css",
-    "static/js/main.42d199b5.js"
+    "static/css/main.a33f6119.css",
+    "static/js/main.09cf9c31.js"
   ]
 }
