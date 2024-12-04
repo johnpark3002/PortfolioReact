@@ -1,7 +1,12 @@
+import { useLanguage } from "../languageContext";
+import translations from "../data/translations";
 import logo from "../images/logo-removebg.png";
 import "../styles/navigation-bar.css";
 
 export default function NavBar() {
+
+  const {language, toggleLanguage } = useLanguage();
+
   return (
     <nav className="navigation-bar">
       <div className="navigation-bar-logo">
@@ -10,15 +15,19 @@ export default function NavBar() {
       </div>
       <div className="navigation-bar-links-container">
         <a className="navigation-bar-links" href="#home">
-          Home
+          {translations[language].home}
         </a>
         <a className="navigation-bar-links" href="#about">
-          About
+          {translations[language].about}
         </a>
         <a className="navigation-bar-links" href="#projects">
-          Projects
+          {translations[language].projects}
         </a>
       </div>
+
+      <button onClick={toggleLanguage}>
+        {language === 'en' ? "Switch to French" : "Passer à l'anglais"}
+      </button>
     </nav>
   );
 }

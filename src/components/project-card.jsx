@@ -1,7 +1,11 @@
 import "../styles/project-card.css";
 import github from "../images/github-logo.svg";
+import translations from "../data/translations";
+import { useLanguage } from "../languageContext";
 
 export default function ProjectCard(props) {
+  const { language } = useLanguage();
+
   const projects = props.projects;
 
   return (
@@ -18,11 +22,11 @@ export default function ProjectCard(props) {
           </div>
           <div className="card-back">
             <div className="card-back-description">
-              <span>Description: </span>
+              <span>{translations[language].description}: </span>
               {project.description}
             </div>
             <div className="card-back-technologies">
-              <span>Technologies Used: </span>
+              <span>{translations[language].technologies}: </span>
               {project.technologies}
             </div>
             {project.url && (

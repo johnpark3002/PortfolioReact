@@ -1,28 +1,30 @@
 import profile from "../images/profile-picture.jpeg";
 import Resume from "../assets/john-park-software-engineering-resume.pdf";
+import translations from "../data/translations";
+import { useLanguage } from "../languageContext";
 import "../styles/home.css";
 
 export default function Home() {
+  const { language } = useLanguage();
+
   return (
     <div className="homepage">
       {" "}
       {/* Container div */}
       <div className="homepage-summary">
         <span>
-          Hi, my name is{" "}
-          <span style={{ fontWeight: 900, color: "#3498db" }}>John</span>.
+          {translations[language].homepage_summary}{" "}
+          <span style={{ fontWeight: 900, color: "#3498db" }}>{translations[language].homepage_summary_name}</span>.
         </span>
         <p>
-          An aspiring Software Engineer passionate about building efficient,
-          user-friendly solutions. Experienced in full-stack development with a
-          focus on accessible technologies and real-world problem-solving.
+          {translations[language].homepage_summary_context}
         </p>
         <a
           href={Resume}
           download="john-park-software-engineering-resume.pdf"
           className="homepage-resume-button"
         >
-          My Resume
+          {translations[language].homepage_summary_resume}
         </a>
       </div>
       <div className="homepage-profile-picture">
