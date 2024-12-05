@@ -38,7 +38,7 @@
     .about-container p {
         font-size: 1rem; /* Reduces font size for smaller screens */
         text-align: left; /* Aligns text to the left for better readability on small devices */
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 }
 
