@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortfolioReact/static/css/main.5a08499f.css",
-    "main.js": "/PortfolioReact/static/js/main.427b25ea.js",
+    "main.js": "/PortfolioReact/static/js/main.748d93d8.js",
     "static/js/453.aac68abc.chunk.js": "/PortfolioReact/static/js/453.aac68abc.chunk.js",
     "static/media/library-management-website.png": "/PortfolioReact/static/media/library-management-website.bcdf0b4e1822fc7ca41c.png",
     "static/media/pourdecisions-website.png": "/PortfolioReact/static/media/pourdecisions-website.c863178ca8b5087046b1.png",
@@ -14,11 +14,11 @@
     "index.html": "/PortfolioReact/index.html",
     "static/media/github-logo.svg": "/PortfolioReact/static/media/github-logo.b1de3551c3e3c826bf5af69a30f1f516.svg",
     "main.5a08499f.css.map": "/PortfolioReact/static/css/main.5a08499f.css.map",
-    "main.427b25ea.js.map": "/PortfolioReact/static/js/main.427b25ea.js.map",
+    "main.748d93d8.js.map": "/PortfolioReact/static/js/main.748d93d8.js.map",
     "453.aac68abc.chunk.js.map": "/PortfolioReact/static/js/453.aac68abc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a08499f.css",
-    "static/js/main.427b25ea.js"
+    "static/js/main.748d93d8.js"
   ]
 }
