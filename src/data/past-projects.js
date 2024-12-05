@@ -85,7 +85,7 @@ const projectsList = {
       {
         id: 2,
         image: PourDecisions,
-        alt: "Une image de la page principale du site Web PourDecisions, dévelopé pour le cours de ECSE 428 (Software Engineering Practice) à l'univerisité McGill pendant le semestre hiver 2022.",
+        alt: "Une image de la page principale du site Web PourDecisions, dévelopé pour le cours de ECSE 428 (Software Engineering Practice) à l'univerisité McGill pendant la session hiver 2022.",
         name: "PourDecisions",
         description:
           "Création d'un générateur de recettes de cocktails avec une interface utilisateur interactive. Les utilisateurs peuvent rechercher des recettes par ingrédient ou type d'alcool, alimenté par une API backend.",
@@ -95,7 +95,7 @@ const projectsList = {
       {
         id: 3,
         image: LibraryApp,
-        alt: "An image of the library management website developed for the ECSE 321 course (Intro to Software Engineering) at McGill University during the Fall 2021 semester.",
+        alt: "Une image du site Web de gestion de bibliothèque, développé pour le cours de ECSE 321 (Intro to Software Engineering) à l'université McGill pendant la session automne 2021.",
         name: "Site Web de gestion de bibliothèque",
         description:
           "Développé un système de gestion de bibliothèque permettant aux utilisateurs de rechercher et d'emprunter des livres. Intégration d'une interface responsive et d'un backend robuste pour gérer les utilisateurs et les données.",
@@ -106,7 +106,7 @@ const projectsList = {
       {
         id: 4,
         image: AutonomousRobot,
-        alt: "An image depicting the autonomous robot developed for the ECSE 211 course (Design Principles and Methods) at McGill University during the Fall 2020 semester.",
+        alt: "Une image représentant un robot autonome développé pour le cours de ECSE 211 (Design Principles and Methods) à l'université McGill pendant la session automne 2020.",
         name: "Robot autonome",
         description:
           "Conception et programmation d'un robot virtuel pour une compétition. Mise en œuvre d'algorithmes de contrôle pour la navigation et l'évitement d'obstacles.",
