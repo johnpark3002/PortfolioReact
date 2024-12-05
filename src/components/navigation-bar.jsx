@@ -11,7 +11,7 @@ export default function NavBar() {
     <nav className="navigation-bar">
       <div className="navigation-bar-logo">
         <img src={logo} alt="Logo" ></img>
-        <span className="navigation-bar-title">John Park | Software Engineer</span>
+        <span className="navigation-bar-title">{translations[language].navigation_bar_title}</span>
       </div>
       <div className="navigation-bar-links-container">
         <a className="navigation-bar-links" href="#home">

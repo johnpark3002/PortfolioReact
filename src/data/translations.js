@@ -3,6 +3,7 @@ const translations = {
     home: "Home",
     about: "About",
     projects: "Projects",
+    navigation_bar_title: "John Park | Software Engineer",
     homepage_summary: "Hi, my name is",
     homepage_summary_name: "John",
     homepage_summary_context:
@@ -36,6 +37,7 @@ const translations = {
     home: "Accueil",
     about: "À propos",
     projects: "Projets",
+    navigation_bar_title: "John Park | Développeur",
     homepage_summary: "Salut, mon nom est",
     homepage_summary_name: "John",
     homepage_summary_context:
