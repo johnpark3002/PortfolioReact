@@ -14,7 +14,7 @@ export default function Home() {
       <div className="homepage-summary">
         <span>
           {translations[language].homepage_summary}{" "}
-          <span style={{ fontWeight: 900, color: "#3498db" }}>{translations[language].homepage_summary_name}</span>.
+          <span style={{ fontWeight: 900, color: "#3498db" }}>{translations[language].homepage_summary_name}</span>!
         </span>
         <p>
           {translations[language].homepage_summary_context}

@@ -26,7 +26,7 @@ export default function ProjectCard(props) {
               {project.description}
             </div>
             <div className="card-back-technologies">
-              <span>{translations[language].technologies}: </span>
+              <span>{translations[language].technologies  }: </span>
               {project.technologies}
             </div>
             {project.url && (

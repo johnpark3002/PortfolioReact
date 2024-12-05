@@ -25,7 +25,7 @@ export default function NavBar() {
         </a>
       </div>
 
-      <button onClick={toggleLanguage}>
+      <button className="navigation-bar-language-button" onClick={toggleLanguage}>
         {language === 'en' ? "Switch to French" : "Passer à l'anglais"}
       </button>
     </nav>
