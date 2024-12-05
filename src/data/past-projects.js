@@ -13,7 +13,7 @@ const projectsList = {
         alt: "An AI-generated image of a budget management application.",
         name: "Budget Management Application",
         description:
-          "Developed a web application to streamline budget management and enhance data security. Implemented features to optimize user experience and ensure efficient data storage.",
+          "Developed a web application to streamline budget management. Implemented features to optimize user experience and ensure efficient data storage.",
         technologies:
           "React.js, Spring Boot, Microsoft SQL Server, KendoReact UI, Java, and role-based access control.",
       },
@@ -68,7 +68,7 @@ const projectsList = {
         alt: "Une image générée par IA d'une application de gestion budgétaire.",
         name: "Application de gestion de budget",
         description:
-          "Développé une application web pour simplifier la gestion des budgets et améliorer la sécurité des données. Mise en œuvre de fonctionnalités pour optimiser l'expérience utilisateur et garantir une gestion efficace des données.",
+          "Développé une application web pour simplifier la gestion des budgets. Mise en œuvre de fonctionnalités pour optimiser l'expérience utilisateur et garantir une gestion efficace des données.",
         technologies:
           "React.js, Spring Boot, Microsoft SQL Server, KendoReact UI, Java et contrôle d'accès basé sur les rôles.",
       },

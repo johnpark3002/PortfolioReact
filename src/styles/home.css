@@ -52,3 +52,42 @@
 .homepage-resume-button:hover {
     transform: scale(1.1);
 }
+
+@media (max-width: 600px) {
+    .homepage {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        gap: 10px;
+        height: 100vh;
+    }
+
+    .homepage-profile-picture {
+        order: -1;
+    }
+
+    .homepage-summary {
+        text-align: center;
+        max-width: 100%; /* Utilize full width for content */
+        padding: 0 10px; /* Add some padding for better readability */
+    }
+
+    .homepage-profile-picture img {
+        max-width: 150px; /* Reduce image size further */
+        transform: scale(1); /* Remove scaling on smaller screens */
+    }
+
+    .homepage-summary span {
+        font-size: clamp(1.8rem, 4vw, 3rem); /* Reduce size for better fit */
+    }
+
+    .homepage-summary p {
+        font-size: clamp(0.9rem, 2vw, 1rem); /* Adjust paragraph size */
+    }
+
+    .homepage-resume-button {
+        width: auto; /* Let the button adjust naturally */
+        padding: 0.5rem 1rem; /* Adjust padding */
+        font-size: 1rem; /* Reduce font size */
+    }
+}

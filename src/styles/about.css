@@ -24,3 +24,22 @@
     font-size: 1.2rem;
 }
 
+@media (max-width: 600px) {
+    .about-container {
+        height: 100vh; /* Allows the container to adapt to the content */
+        padding: 20px; /* Adds more padding for smaller screens */
+    }
+
+    .about-title {
+        font-size: 2.5rem; /* Reduces font size for smaller screens */
+        margin-bottom: 15px;
+    }
+
+    .about-container p {
+        font-size: 1rem; /* Reduces font size for smaller screens */
+        text-align: left; /* Aligns text to the left for better readability on small devices */
+        margin-bottom: 10px;
+    }
+}
+
+
