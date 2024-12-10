@@ -3,12 +3,23 @@ import iPhoneApp from "../images/iphone-application-development.jpg";
 import LibraryApp from "../images/library-management-website.png";
 import AutonomousRobot from "../images/autonomous-robot-project.png";
 import PourDecisions from "../images/pourdecisions-website.png";
+import LeagueOfLegends from "../images/league-of-legends.jpg";
 
 const projectsList = {
   en: {
     projects: [
       {
-        id: 0,
+        id: 5,
+        image: LeagueOfLegends,
+        alt: "League of Legends",
+        name: "League of Legends Esports Prediction Model",
+        description:
+          "Developed a machine learning model using Python and Scikit-learn to predict the outcome of League of Legends eSports matches with a precision of over 90%.",
+        technologies: "Python, Jupyter Notebook, Pandas, Scikit Learn, Random Forest Classifier",
+        url: "https://github.com/johnpark3002/prediction-ml-lol",
+      },
+      {
+        id: 4,
         image: BudgetApp,
         alt: "An AI-generated image of a budget management application.",
         name: "Budget Management Application",
@@ -18,7 +29,7 @@ const projectsList = {
           "React.js, Spring Boot, Microsoft SQL Server, KendoReact UI, Java, and role-based access control.",
       },
       {
-        id: 1,
+        id: 3,
         image: iPhoneApp,
         alt: "An AI-generated image of an iPhone.",
         name: "Vision-guided Navigation Assistance for the Visually Impaired",
@@ -38,7 +49,7 @@ const projectsList = {
         url: "https://github.com/nielsmai/PourDecisions",
       },
       {
-        id: 3,
+        id: 1,
         image: LibraryApp,
         alt: "An image of the library management website developed for the ECSE 321 course (Intro to Software Engineering) at McGill University during the Fall 2021 semester.",
         name: "Library Management Website",
@@ -49,7 +60,7 @@ const projectsList = {
         url: "https://github.com/McGill-ECSE321-Fall2021/project-group-02",
       },
       {
-        id: 4,
+        id: 0,
         image: AutonomousRobot,
         alt: "An image depicting the autonomous robot developed for the ECSE 211 course (Design Principles and Methods) at McGill University during the Fall 2020 semester.",
         name: "Autonomous Robot",
@@ -63,7 +74,17 @@ const projectsList = {
   fr: {
     projects: [
       {
-        id: 0,
+        id: 5,
+        image: LeagueOfLegends,
+        alt: "League of Legends",
+        name: "Modèle de Prédiction pour l'eSport de League of Legends",
+        description:
+          "Développement d'un modèle de machine learning en Python et Scikit-learn pour prédire l'issue de matchs d'eSports de League of Legends avec une précision de plus de 90%.",
+        technologies: "Python, Jupyter Notebook, Pandas, Scikit Learn, Classificateur de forêt aléatoire",
+        url: "https://github.com/johnpark3002/prediction-ml-lol",
+      },
+      {
+        id: 4,
         image: BudgetApp,
         alt: "Une image générée par IA d'une application de gestion budgétaire.",
         name: "Application de gestion de budget",
@@ -73,7 +94,7 @@ const projectsList = {
           "React.js, Spring Boot, Microsoft SQL Server, KendoReact UI, Java et contrôle d'accès basé sur les rôles.",
       },
       {
-        id: 1,
+        id: 3,
         image: iPhoneApp,
         alt: "Une image générée par IA d'un iPhone.",
         name: "Assistance à la navigation guidée par vision pour les malvoyants",
@@ -93,7 +114,7 @@ const projectsList = {
         url: "https://github.com/nielsmai/PourDecisions",
       },
       {
-        id: 3,
+        id: 1,
         image: LibraryApp,
         alt: "Une image du site Web de gestion de bibliothèque, développé pour le cours de ECSE 321 (Intro to Software Engineering) à l'université McGill pendant la session automne 2021.",
         name: "Site Web de gestion de bibliothèque",
@@ -104,7 +125,7 @@ const projectsList = {
         url: "https://github.com/McGill-ECSE321-Fall2021/project-group-02",
       },
       {
-        id: 4,
+        id: 0,
         image: AutonomousRobot,
         alt: "Une image représentant un robot autonome développé pour le cours de ECSE 211 (Design Principles and Methods) à l'université McGill pendant la session automne 2020.",
         name: "Robot autonome",
