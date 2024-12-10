@@ -27,7 +27,8 @@
 .homepage-summary p {
     color: var(--text-color);
     font-family: var(--font-family-secondary);
-    max-width: 90%;
+    max-width: 100%;
+    padding-right: 50px;
     font-size: 1.3rem;
 }
 
