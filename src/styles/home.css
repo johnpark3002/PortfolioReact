@@ -84,6 +84,7 @@
 
     .homepage-summary p {
         font-size: clamp(0.9rem, 2vw, 1rem); /* Adjust paragraph size */
+        padding: 0;
     }
 
     .homepage-resume-button {
