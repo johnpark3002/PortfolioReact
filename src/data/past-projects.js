@@ -12,7 +12,7 @@ const projectsList = {
         id: 5,
         image: LeagueOfLegends,
         alt: "League of Legends",
-        name: "League of Legends Esports Prediction Model",
+        name: "League of Legends eSports Prediction Model",
         description:
           "Developed a machine learning model using Python and Scikit-learn to predict the outcome of League of Legends eSports matches with a precision of over 90%.",
         technologies: "Python, Jupyter Notebook, Pandas, Scikit Learn, Random Forest Classifier",
