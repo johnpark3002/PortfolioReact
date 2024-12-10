@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/PortfolioReact/static/css/main.4948e94c.css",
-    "main.js": "/PortfolioReact/static/js/main.8402c6dc.js",
+    "main.js": "/PortfolioReact/static/js/main.81825f47.js",
     "static/js/453.aac68abc.chunk.js": "/PortfolioReact/static/js/453.aac68abc.chunk.js",
     "static/media/library-management-website.png": "/PortfolioReact/static/media/library-management-website.bcdf0b4e1822fc7ca41c.png",
+    "static/media/league-of-legends.jpg": "/PortfolioReact/static/media/league-of-legends.3fa5a3632ec7eae36a8a.jpg",
     "static/media/pourdecisions-website.png": "/PortfolioReact/static/media/pourdecisions-website.c863178ca8b5087046b1.png",
     "static/media/iphone-application-development.jpg": "/PortfolioReact/static/media/iphone-application-development.8860c8982a80bc1682f3.jpg",
     "static/media/budget-management-application.jpg": "/PortfolioReact/static/media/budget-management-application.a68a0fcb57a1bad61e24.jpg",
@@ -14,11 +15,11 @@
     "index.html": "/PortfolioReact/index.html",
     "static/media/github-logo.svg": "/PortfolioReact/static/media/github-logo.b1de3551c3e3c826bf5af69a30f1f516.svg",
     "main.4948e94c.css.map": "/PortfolioReact/static/css/main.4948e94c.css.map",
-    "main.8402c6dc.js.map": "/PortfolioReact/static/js/main.8402c6dc.js.map",
+    "main.81825f47.js.map": "/PortfolioReact/static/js/main.81825f47.js.map",
     "453.aac68abc.chunk.js.map": "/PortfolioReact/static/js/453.aac68abc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4948e94c.css",
-    "static/js/main.8402c6dc.js"
+    "static/js/main.81825f47.js"
   ]
 }
