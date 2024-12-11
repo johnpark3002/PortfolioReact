@@ -104,3 +104,18 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+@media (max-width: 600px) {
+    .card {
+        min-width: 200px;
+        height: 300px; 
+    }
+
+    .card-back-description, .card-back-technologies {
+        font-size: 0.75rem;
+    }
+
+    .card-front-title {
+        font-size: 0.75rem;
+    }
+}
