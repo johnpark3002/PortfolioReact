@@ -1,9 +1,8 @@
 import { useEffect } from "react";
+import { Routes, Route } from "react-router-dom";
 import "./styles/App.css";
-import NavBar from "./components/navigation-bar";
-import Home from "./components/home";
-import About from "./components/about";
-import Projects from "./components/projects";
+import Layout from "./components/layout";
+import ResumeViewer from "./components/resume-viewer";
 
 function App() {
   useEffect(() => {
@@ -11,20 +10,10 @@ function App() {
   }, []);
 
   return (
-    <div className="container">
-      <section id="navigation">
-        <NavBar />
-      </section>
-      <section id="home">
-        <Home />
-      </section>
-      <section id="about">
-        <About />
-      </section>
-      <section id="projects">
-        <Projects />
-      </section>
-    </div>
+    <Routes>
+      <Route path='/' element={<Layout />}/>
+      <Route path="/resume" element={<ResumeViewer />}/>
+    </Routes>
   );
 }
 

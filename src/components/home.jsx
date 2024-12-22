@@ -1,11 +1,16 @@
 import profile from "../images/profile-picture.jpeg";
-import Resume from "../assets/john-park-software-engineering-resume.pdf";
 import translations from "../data/translations";
 import { useLanguage } from "../languageContext";
 import "../styles/home.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Home() {
   const { language } = useLanguage();
+  const navigate = useNavigate();
+
+  const handleRedirect = () => {
+    navigate("/resume");
+  };
 
   return (
     <div className="homepage">
@@ -16,16 +21,18 @@ export default function Home() {
           {translations[language].homepage_summary}{" "}
           <span style={{ fontWeight: 900, color: "#3498db" }}>{translations[language].homepage_summary_name}</span>!
         </span>
-        <p>
-          {translations[language].homepage_summary_context}
-        </p>
-        <a
-          href={Resume}
-          download="john-park-software-engineering-resume.pdf"
+        {/* <TypewriterText
+          text={`${translations[language].homepage_summary} \n ${translations[language].homepage_summary_name}`}
+          className="my-custom-class"
+        ></TypewriterText> */}
+
+        <p>{translations[language].homepage_summary_context}</p>
+        <button
+          onClick={handleRedirect}
           className="homepage-resume-button"
         >
           {translations[language].homepage_summary_resume}
-        </a>
+        </button>
       </div>
       <div className="homepage-profile-picture">
         <img

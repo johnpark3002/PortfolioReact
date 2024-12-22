@@ -32,6 +32,8 @@ const translations = {
       "up, I'm ready to tackle the challenges ahead.",
     technologies: "Technologies Used",
     description: "Description",
+    resume_viewer_back: "Back",
+    resume_viewer_download: "Download",
   },
   fr: {
     home: "Accueil",
@@ -68,6 +70,8 @@ const translations = {
       "en construisant des solutions, je suis prêt à relever les défis qui m'attendent.",
     technologies: "Technologies utilisées",
     description: "Description",
+    resume_viewer_back: "Retour",
+    resume_viewer_download: "Télécharger",
   },
 };
 

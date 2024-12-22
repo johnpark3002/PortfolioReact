@@ -1,0 +1,79 @@
+@import url("./variables.css");
+
+.resume-viewer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.resume-viewer-page {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-viewer-title {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 4rem;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.resume-viewer-buttons-download {
+    background-color: rgb(52, 152, 219);
+    font-family: var(--font-family);
+    font-size: 1.3rem;
+    border-radius: 0.75rem;
+    font-weight: 600;
+    padding: 0.75rem;
+    border: none;
+    color: #E6E6E6 !important;
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+.resume-viewer-buttons-download a {
+    text-decoration: none;
+    color: #E6E6E6;
+}
+
+.resume-viewer-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+}
+
+.resume-viewer-buttons-back button {
+    background-color: rgb(52, 152, 219);
+    font-family: var(--font-family);
+    font-size: 1.3rem;
+    border-radius: 0.75rem;
+    font-weight: 600;
+    padding: 0.75rem;
+    border: none;
+    color: #E6E6E6;
+    text-decoration: none;
+    display: inline-block;
+}
+
+@media (max-width: 600px) {
+    .resume-viewer-title {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .viewer-fullscreen {
+        height: 100%;
+        width: 100%;
+    }
+
+    .resume-viewer-page {
+        width: 90%;
+    }
+}
