@@ -9,6 +9,9 @@
     gap: 5px;
     padding-top: 25px;
     height: 80vh;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInEase 1.5s ease-out forwards;
 }
 
 .homepage-profile-picture img {
@@ -91,5 +94,16 @@
         width: auto; /* Let the button adjust naturally */
         padding: 0.5rem 1rem; /* Adjust padding */
         font-size: 1rem; /* Reduce font size */
+    }
+}
+
+@keyframes fadeInEase {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
