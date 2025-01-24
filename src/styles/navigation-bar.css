@@ -4,9 +4,27 @@
   display: grid;
   grid-template-columns: auto max-content;
   grid-template-rows: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--background-color);
+  backdrop-filter: blur(10px); /* Adds a blurred effect to the background */
+  z-index: 1000;
+  transform: translateY(0);
+  transition: transform 0.3s ease;
 }
 
-.navigation-bar-links, .navigation-bar-title {
+.navigation-bar.hidden {
+  transform: translateY(-100%); /* Hide the navbar by moving it out of view */
+}
+
+.navigation-bar.visible {
+  transform: translateY(0); /* Show the navbar */
+}
+
+.navigation-bar-links,
+.navigation-bar-title {
   color: var(--text-color);
   font-family: var(--font-family);
   transition: transform 0.3s ease; /* Smooth animation effect */
@@ -47,7 +65,7 @@
   font-family: var(--font-family);
   justify-self: center;
   background-color: rgb(52, 152, 219);
-  color: #E6E6E6;
+  color: #e6e6e6;
   border-radius: 0.75rem;
   font-size: 1.1rem;
   border: none;

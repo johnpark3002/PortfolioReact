@@ -15,7 +15,7 @@ export default function ResumeViewer() {
 
   useEffect(() => {
     const updateScale = () => {
-      if(window.innerWidth <= 768) {
+      if (window.innerWidth <= 768) {
         setScale(0.7);
       } else {
         setScale(0.8);
@@ -33,15 +33,21 @@ export default function ResumeViewer() {
 
   return (
     <div className="resume-viewer-container">
-      <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.js">
+      <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.js">
         <div className="resume-viewer-page">
           <div className="resume-viewer-title">
             <span>{translations[language].homepage_summary_resume}</span>
           </div>
-          <Viewer fileUrl={Resume} defaultScale={scale} className="viewer-fullscreen"/>
+          <Viewer
+            fileUrl={Resume}
+            defaultScale={scale}
+            className="viewer-fullscreen"
+          />
           <div className="resume-viewer-buttons">
             <div className="resume-viewer-buttons-back">
-              <button onClick={handleRedirect}>{translations[language].resume_viewer_back}</button>
+              <button onClick={handleRedirect}>
+                {translations[language].resume_viewer_back}
+              </button>
             </div>
             <div className="resume-viewer-buttons-download">
               <a
